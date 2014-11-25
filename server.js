@@ -36,7 +36,7 @@ function startServer() {
     app.set('port', process.argv[3] || process.env.PORT || 3000);
 
     app.use(methodOverride());
-    app.use(express.static(path.join(__dirname, '')));
+    app.use(express.static(path.join(__dirname, 'dist')));
 
     //Create the server
     http.createServer(app).listen(app.get('port'), function() {
