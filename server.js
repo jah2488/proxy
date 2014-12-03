@@ -29,7 +29,7 @@ function startServer() {
     // examples:
     // proxify('/yummly/recipes', 'http://api.yummly.com/v1/api/recipes');
     // proxify('/brewery/styles', 'https://api.brewerydb.com/v2/styles');
-    proxify('/walmart/search', 'http://api.walmartlabs.com/v1/search');
+    //proxify('/walmart/search', 'http://api.walmartlabs.com/v1/search');
 
     // all environments
     // set port
